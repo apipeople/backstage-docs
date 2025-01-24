@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  description: |
+    This is a simple component that I'm creating to test backstage.
+  links:
+    - title: Website
+      url: https://apipeople.com/
+    - title: Github
+      url: https://github.com/apipeople
+  annotations:
+    github.com/project-slug: apipeople/backstage-docs
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  owner: apipeople
+  lifecycle: production
